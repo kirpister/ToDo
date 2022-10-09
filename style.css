@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overscroll-behavior: none;
+}
+
+html {
+    background-image: url('bg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    margin-top: 15%;
+    font-size: 3rem;
+}
+
+li {
+    margin-bottom: 5px;
+    list-style-type: circle;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+}
+
+.todo-list {
+    text-align: center;
+    margin-top: 2.2rem;
+}
+
+input[type = text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    width: 250px;
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+input:focus {
+    outline: 1px solid rgba(207, 209, 212, 0.694);
+    border-radius: 5px;
+    border: none;
+  }
+
+button {
+    font-family: 'Shadows Into Light', cursive;
+    color: #333;
+    background-color: rgba(215, 214, 213, 0.751);
+    width: 65px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    letter-spacing: 3px;
+}
+
+.btn {
+    text-align: center;
+    top: 25%;
+    left: 48%;
+}
+
+.strike-through {
+    text-decoration: line-through;
+}
